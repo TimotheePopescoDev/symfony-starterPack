@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*  01 - Style Général (base.html.twig) */
+
+/*  Navbar */
+body{
+    color: navy;
+}
+nav{
+    background-color: navy;
+    color: white;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav a:hover, nav a:active {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/*  Footer */
+footer {
+    background-color: navy;
+    color: white;
+}
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+footer a:hover, nav a:active {
+    color: white;
+    font-weight: bold;
+}
